@@ -35,7 +35,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 st.write("Mecanisme de transmission des fluctuations des prix de pétrole dans l'économmie de la Guinée Equatoriale")
-
+data=pd.read_excel("base_final.xlsx")
 
 
 
