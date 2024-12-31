@@ -59,7 +59,7 @@ st.markdown("""
 
 
 
-data=pd.read_excel("C://Users//elias//Desktop//ISE//ISE3//ISE32025//Equations simultannées et modèles à correction d'erreur//Projet_simultanné//base_Application//base_final.xlsx")
+data=pd.read_excel("C://Users//elias//Desktop//Application_MES//base_final.xlsx")
 Var=['Années', 'INV($US)', 'RECT', ' DEPT', 'TPIB', 'INF', 'CHO', 'EPG',
        'BLE', 'PRP', 'LPRP', 'MM(%)', 'MM(FCFA)', 'EXP', 'IMP', 'Tchange',
        'CDI($US)', 'Subv', 'TPOA', 'TPOA(%)', 'LIPC', 'IPC', 'Taxe',
