@@ -41,18 +41,3 @@ st.write("Mecanisme de transmission des fluctuations des prix de pétrole dans l
 
 
 
-
-data=pd.read_excel("C://Users//elias//Desktop//Application_MES//base_final.xlsx")
-st.head(data)
-Var=['Années', 'INV($US)', 'RECT', ' DEPT', 'TPIB', 'INF', 'CHO', 'EPG',
-       'BLE', 'PRP', 'LPRP', 'MM(%)', 'MM(FCFA)', 'EXP', 'IMP', 'Tchange',
-       'CDI($US)', 'Subv', 'TPOA', 'TPOA(%)', 'LIPC', 'IPC', 'Taxe',
-       'Ttaxe(%)', 'TCDI(%)', 'TINV(%)', 'TEXP(%)', 'TIMP(%)']
-
-var_réel=["TPIB","CHO",'TINV(%)','TPOA']
-var_xterieur=['TEXP(%)','TIMP(%)']
-
-var_finance=['MM(%)','TCDI(%)''INF']
-var_budget=['RECT', ' DEPT','Ttaxe(%)']
-
-
