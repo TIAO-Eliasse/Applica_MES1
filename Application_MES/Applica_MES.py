@@ -38,28 +38,12 @@ st.write("Mecanisme de transmission des fluctuations des prix de pétrole dans l
 
 
 
-# CSS personnalisé pour l'arrière-plan
-st.markdown("""
-    <style>
-    .stApp {
-        background-color: #eaf6ff; /* Bleu clair inspiré de Stata */
-    }
-    .sidebar .sidebar-content {
-        background-color: #d0e6f5; /* Bleu encore plus clair pour la barre latérale */
-    }
-    h1, h2, h3, h4, h5, h6 {
-        color: #1f77b4; /* Bleu Stata pour les titres */
-    }
-    .stButton>button {
-        background-color: #1f77b4; /* Boutons Stata */
-        color: white;
-    }
-    </style>
-    """, unsafe_allow_html=True)
+
 
 
 
 data=pd.read_excel("C://Users//elias//Desktop//Application_MES//base_final.xlsx")
+st.head(data)
 Var=['Années', 'INV($US)', 'RECT', ' DEPT', 'TPIB', 'INF', 'CHO', 'EPG',
        'BLE', 'PRP', 'LPRP', 'MM(%)', 'MM(FCFA)', 'EXP', 'IMP', 'Tchange',
        'CDI($US)', 'Subv', 'TPOA', 'TPOA(%)', 'LIPC', 'IPC', 'Taxe',
